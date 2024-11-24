@@ -1,0 +1,22 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Настаник - создание обсуждения";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/discussion.css" />
+</head>
+<body>
+    <form asp-action="CreateDiscussion" asp-controller="Discussions" method="post">
+        @{
+            Model.ApplicantId = Model.user.Id + "";
+        }
+        <input class="input" asp-for="ApplicantId" type="hidden" value="@Model.ApplicantId" />
+        <h1>Тема</h1>
+        <input class="input" asp-for="Topic" type="text" />
+        <h1>Текст</h1>
+        <input class="input" asp-for="Text" type="text" />
+        <button type="submit">Создать обсуждение</button>
+    </form>
+</body>

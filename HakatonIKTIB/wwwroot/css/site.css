@@ -1,0 +1,68 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    height: 5%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+    align-content: center;
+    text-align: center;
+}
+
+#site {
+    display: inline-block;
+    width: 10%;
+    height: 97%;
+    align-content: center;
+}
+
+#panel {
+    display: inline-block;
+    width: 78%;
+    height: 97%;
+    align-content: center;
+    text-align: center;
+}
+
+#user {
+    display: inline-block;
+    width: 10%;
+    height: 80%;
+    padding: 0%;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+#searchfield {
+    display: inline-block;
+    width: 55%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.roundedbutton {
+    display: inline-block;
+    width: 2.57%; 
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-content: center;
+}

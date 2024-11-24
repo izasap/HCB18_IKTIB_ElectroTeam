@@ -1,0 +1,63 @@
+﻿@model RegisterModel
+
+@{
+    ViewData["Title"] = "Наставник - вход";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/register.css" />
+</head>
+<body>
+    <form class="main" asp-action="Regiser" asp-controller="UserPage" method="post">
+        <h1>Регистрация</h1>
+        <div class="datainput">
+            <label>*Логин</label>
+            <input type="text" asp-for="Login" class="input" />
+        </div>
+        <div class="datainput">
+            <label>*Пароль</label>
+            <input type="text" asp-for="Password" class="input" />
+        </div>
+        <div class="datainput">
+            <label>*Подтвердите пароль</label>
+            <input type="text" asp-for="ConfrimPassword" class="input" />
+        </div>
+        <div class="datainput">
+            <label>*Имя</label>
+            <input type="text" asp-for="Name" class="input" />
+        </div>
+        <div class="datainput">
+            <label>*Фамилия</label>
+            <input type="text" asp-for="LastName" class="input" />
+        </div>
+        <div class="datainput">
+            <label>Отчество</label>
+            <input type="text" asp-for="SurName" class="input" />
+        </div>
+        <div class="datainput">
+            <label>Курс</label>
+            <input type="text" asp-for="Course" class="input" />
+        </div>
+        <div class="datainput">
+            <label>Специальность</label>
+            <input type="text" asp-for="Specialization" class="input" />
+        </div>
+        <div class="datainput">
+            <label>Университет</label>
+            <input type="text" asp-for="University" class="input" />
+        </div>
+        <button type="submit">Зарегистрировалться</button>
+    </form>
+    <form class="main" asp-action="Login" asp-controller="UserPage" method="post">
+        <h1>Вход</h1>
+        <div class="datainput">
+            <label>*Логин</label>
+            <input type="text" asp-for="Login" class="input" />
+        </div>
+        <div class="datainput">
+            <label>*Пароль</label>
+            <input type="text" asp-for="Password" class="input" />
+        </div>
+        <button type="submit">Войти</button>
+    </form>
+</body>

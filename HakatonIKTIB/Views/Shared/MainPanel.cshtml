@@ -1,0 +1,90 @@
+﻿@model UserModel
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div id="header">
+        <div id="site">
+            Название
+        </div>
+        <div id="panel">
+            <div class="roundedbutton">
+                @{
+                    ulong userId = 0;
+                    if (Model != null)
+                    {
+                        if (Model.user != null)
+                        {
+                            userId = Model.user.Id;
+                            @Html.ActionLink("/\\", "Index", "Home", new { userId });
+                        }
+                        else
+                        {
+                            @Html.ActionLink("/\\", "Index", "Home", new { userId });
+                        }
+                    }
+                    else
+                    {
+                        @Html.ActionLink("/\\", "Index", "Home", new { userId });
+                    }
+                }
+            </div>
+            <div id="searchfield">
+                Поиск
+            </div>
+            <div class="roundedbutton">
+                Поиск
+            </div>
+            <div class="roundedbutton">
+                FAQ
+            </div>
+            <div class="roundedbutton">
+                @{
+                    if (Model != null)
+                    {
+                        if (Model.user != null)
+                        {
+                            userId = Model.user.Id;
+                            @Html.ActionLink("+", "CreateDiscussion", "Discussions", new { userId })
+                        }
+                        else
+                        {
+                            @Html.ActionLink("+", "Register", "UserPage", new { userId })
+                        }
+                    }
+                    else
+                    {
+                        @Html.ActionLink("+", "Register", "UserPage", new { userId })
+                    }
+                }
+            </div>
+        </div>
+        @{
+            bool registered = false;
+
+            if (Model != null) {
+                if (Model.user != null) {
+                    registered = true;
+                }
+
+                if (registered)
+                {
+                    <div id="user">
+                        @Html.ActionLink(Model.user.LastName, "Index", "UserPage", new { Model.user.Login, Model.user.Password })
+                    </div>
+                }
+                else
+                {
+                    <a asp-controller="UserPage" asp-action="Register">
+                        <div id="user">
+                            <b>Войти</b>
+                        </div>
+                    </a>
+                }
+            }
+        }
+    </div>
+
+    @RenderBody();
+</body>

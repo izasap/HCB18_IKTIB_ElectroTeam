@@ -1,0 +1,19 @@
+﻿body {
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin-left: 7%;
+    width: 85%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 28px;
+    font-size: 20pt;
+}
+
+button {
+    width: 20%;
+    height: 5%;
+    font-size: 24pt;
+}

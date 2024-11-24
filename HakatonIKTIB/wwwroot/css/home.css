@@ -1,0 +1,32 @@
+﻿#popular {
+
+}
+
+#intresting {
+
+}
+
+.boxes {
+    margin: 1%;
+    margin-top: 2%;
+    display: inline-table;
+    width: 20%;
+    height: 80%;
+    padding-left: 2%;
+    border: 2px solid black;
+    border-radius: 80px;
+}
+
+.boxes h1 {
+    padding-right: 1%;
+    text-align: center;
+}
+
+.topics {
+    width: 90%;
+    height: 15%;
+    border: 2px solid black;
+    border-radius: 20px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+}

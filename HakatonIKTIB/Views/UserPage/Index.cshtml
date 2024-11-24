@@ -1,0 +1,12 @@
+﻿@model UserModel
+
+@{
+    ViewData["Title"] = $"Наставник - вы: {Model.user.Name}";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <h1>@Model.user.LastName</h1>
+</body>

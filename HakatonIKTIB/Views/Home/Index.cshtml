@@ -1,0 +1,104 @@
+﻿@model UserModel
+@using HakatonIKTIB.Classes;
+@{
+    ViewData["Title"] = "Наставник - главная страница";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
+</head>
+<body>
+    <div class="main">
+        <div id="popular" class="boxes">
+            <h1>Популярное</h1>
+        </div>
+        <div id="intresting" class="boxes">
+            <h1>Интересно для вас</h1>
+            @{
+                if (Model != null)
+                {
+                    if (Model.user != null)
+                    {
+                        if (Model.user.Tags != null)
+                        {
+                            if (Model.user.Tags.Count > 0)
+                            {
+                                List<Discussion> discussions = DataBase.GetDiscussionsByTagId(Model.user.Tags[0].Id, false);
+                                int maxI = discussions.Count >= 7 ? 7 : discussions.Count;
+                                Console.WriteLine(discussions.Count);
+
+                                for (int i = 0; i < maxI; i++)
+                                {
+                                    <div class="topics">
+                                        <h3>@discussions[i].Topic</h3>
+                                        <h5>@discussions[i].Text</h5>
+                                    </div>
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        </div>
+        <div class="boxes">
+            <h1>Ваши обсуждения</h1>
+            @{
+                if (Model != null)
+                {
+                    if (Model.user != null)
+                    {
+                        if (Model.user.ActiveDiscussions != null)
+                        {
+                            int maxI = Model.user.ActiveDiscussions.Count >= 7 ? 7 : Model.user.ActiveDiscussions.Count;
+                            Console.WriteLine(Model.user.ActiveDiscussions.Count);
+
+                            for (int i = 0; i < maxI; i++)
+                            {
+                                ulong discussionId = Model.user.ActiveDiscussions[i].Id;
+
+                                <div class="topics">
+                                    <h3>@Html.ActionLink($"{Model.user.ActiveDiscussions[i].Topic}", "Index", "Discussions", new { discussionId, Model.user.Id })</h3>
+                                    <h5>@Model.user.ActiveDiscussions[i].Text</h5>
+                                </div>
+                            }
+                        }
+                    }
+                }
+            }
+        </div>
+        <div class="boxes">
+            <h1>Новые</h1>
+            @{
+                if (Model != null)
+                {
+                    List<Discussion> lastDiscuissons = DataBase.GetlastDescutions();
+
+                    if (lastDiscuissons != null)
+                    {
+                        if (lastDiscuissons.Count > 0)
+                        {
+                            ulong userId = 0;
+
+                            if (Model != null)
+                                if (Model.user != null)
+                                    userId = Model.user.Id;
+
+                            for (int i = 0; i < lastDiscuissons.Count; i++)
+                            {
+                                ulong discussionId = lastDiscuissons[i].Id;
+
+                                <a herf="/Discussions/Index/?discussionId=@lastDiscuissons[i].Id&userId=@userId">
+                                    <div class="topics">
+                                        <h3>@Html.ActionLink(lastDiscuissons[i].Topic, "Index", "Discussions", new { discussionId, userId })</h3>
+                                        <h5>@lastDiscuissons[i].Text</h5>
+                                    </div>
+                                </a>
+                            }
+                        }
+                    }
+                }
+            }
+        </div>
+    </div>
+</body>

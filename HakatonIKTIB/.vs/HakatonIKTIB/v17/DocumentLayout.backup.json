@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Code\\cs\\web\\HakatonIKTIB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:controllers\\discussionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\wwwroot\\css\\discussion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:wwwroot\\css\\discussion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\views\\discussions\\creatediscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:views\\discussions\\creatediscussion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\views\\shared\\mainpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:views\\shared\\mainpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|c:\\code\\cs\\web\\hakatoniktib\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C320F3E-E886-4D2B-BA49-741DE1DBCD3E}|HakatonIKTIB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:02:05.255Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPanel.cshtml",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Shared\\MainPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\MainPanel.cshtml",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Shared\\MainPanel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\MainPanel.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAABcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:02:29.801Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T09:06:03.79Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateDiscussion.cshtml",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Discussions\\CreateDiscussion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Discussions\\CreateDiscussion.cshtml",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\Views\\Discussions\\CreateDiscussion.cshtml",
+              "RelativeToolTip": "Views\\Discussions\\CreateDiscussion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T07:57:29.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "discussion.css",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\wwwroot\\css\\discussion.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\discussion.css",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\wwwroot\\css\\discussion.css",
+              "RelativeToolTip": "wwwroot\\css\\discussion.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T07:57:32.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiscussionsController.cs",
+              "DocumentMoniker": "C:\\Code\\cs\\web\\HakatonIKTIB\\Controllers\\DiscussionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiscussionsController.cs",
+              "ToolTip": "C:\\Code\\cs\\web\\HakatonIKTIB\\Controllers\\DiscussionsController.cs",
+              "RelativeToolTip": "Controllers\\DiscussionsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:19:57.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿.main {
+    padding: 5%;
+    display: inline-table;
+    margin-left: 2.5%;
+    margin-right: 1%;
+    height: 69%;
+    width: 35%;
+    border: 5px solid black;
+    border-bottom: 0px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-bottom: 0%;
+}
+
+.input {
+
+}
